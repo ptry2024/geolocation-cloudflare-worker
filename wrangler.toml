@@ -5,7 +5,7 @@ compatibility_date = "2025-03-07"
 # Development environment
 [env.dev]
 vars = { ALLOWED_ORIGINS = "*" }
-route = "test.dev.xyz/geo"
+route = "*.test.dev.xyz/geo"
 
 # Production environment
 [env.prod]
